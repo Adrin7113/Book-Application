@@ -1,0 +1,104 @@
+/* #root {
+  min-height: 100vh;
+} */
+.App {
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #151515;
+  color: #dddddd;
+  min-height: 100vh;
+}
+
+/*Home*/
+
+h2 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.books {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #301b3f;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.delete {
+  border: none;
+  padding: 3px 6px;
+  background-color: #3c415c;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #da0037;
+}
+
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: #3c415c;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #1597bb;
+}
+
+.add-button {
+  margin-top: 10px;
+  border: none;
+  padding: 3px 6px;
+  background-color: #3c415c;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+/*Update and Add*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  background-color: #3c415c;
+  color: #b4a5a5;
+  border: none;
+  padding: 5px;
+}
+.update-btn {
+  background-color: #301b3f;
+  color: #b4a5a5;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #301b3f;
+  color: #b4a5a5;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
